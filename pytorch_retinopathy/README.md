@@ -24,7 +24,7 @@ The following steps are taken:
         * Inference with best model for final evaluation
 
 ## Results and Conclusion
-The best model trained over 20 epochs used **resnet34** as the encoder, and a earnin rate of **0.001**; this resulted in a final training loss of 0.1959 and a final validation loss of 0.2061. For the testing set, the average Dice Loss was 0.17 and the average BCE Loss was 0.0096.
+The best model trained over 20 epochs used **resnet34** as the encoder, and a learning rate of **0.001**; this resulted in a final training loss of 0.1959 and a final validation loss of 0.2061. For the testing set, the average Dice Loss was 0.17 and the average BCE Loss was 0.0096.
 An example of inference with this model can be seen on an example image from the testing set:
 ![alt text](image.png)
 The model can accurately segment the optical disc with an accuracy of about 83% (based on the Dice Loss), which is a good result. 
